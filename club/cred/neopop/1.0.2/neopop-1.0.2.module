@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "club.cred",
+    "module": "neopop",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "wylqgm6pgvfzlhfgid6avwbi5q"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "neopop-1.0.2.aar",
+          "url": "neopop-1.0.2.aar",
+          "size": 254827,
+          "sha512": "20bf488debcb846d41c61ea1222bb74712a9e32d98abc993a85346e89521c2a050436411f443e903142a0c03d246d4bb29400ddae7964e33e4689501c3204b0c",
+          "sha256": "e6a7a8a8b540f996c4a22c7d7fd01daabab7b4836f5944222b1f4198ab3acf79",
+          "sha1": "636a8e9cc3c72a4161407be939d91414e9d64aa3",
+          "md5": "40435c83ca409c8bab65bab427df9661"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "neopop-1.0.2.aar",
+          "url": "neopop-1.0.2.aar",
+          "size": 254827,
+          "sha512": "20bf488debcb846d41c61ea1222bb74712a9e32d98abc993a85346e89521c2a050436411f443e903142a0c03d246d4bb29400ddae7964e33e4689501c3204b0c",
+          "sha256": "e6a7a8a8b540f996c4a22c7d7fd01daabab7b4836f5944222b1f4198ab3acf79",
+          "sha1": "636a8e9cc3c72a4161407be939d91414e9d64aa3",
+          "md5": "40435c83ca409c8bab65bab427df9661"
+        }
+      ]
+    }
+  ]
+}
