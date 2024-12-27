@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>me.dm7.barcodescanner</groupId>
   <artifactId>zxing</artifactId>
-  <version>1.9.8</version>
+  <version>1.9.1</version>
   <packaging>aar</packaging>
   <name>ZXing Scanner View</name>
   <description>An android library project which contains the zxing barcode scanner view</description>
@@ -32,7 +32,7 @@
     <dependency>
       <groupId>me.dm7.barcodescanner</groupId>
       <artifactId>core</artifactId>
-      <version>1.9.8</version>
+      <version>1.9.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
